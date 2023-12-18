@@ -8,8 +8,8 @@ document.getElementById("add_num").addEventListener("click", function() {
 });
 
 
-document.getElementById("show_min").addEventListener("click", function() {
-    let min = Math.min( ...numlist);
-    document.getElementById("min_num").innerHTML = min;
+document.getElementById("show_max").addEventListener("click", function() {
+    let max = Math.max( ...numlist);
+    document.getElementById("max_num").innerHTML = max;
     });
 
